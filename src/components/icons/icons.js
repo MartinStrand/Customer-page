@@ -31,7 +31,7 @@ const icons = {
 
 const Icon = (props) => (
     props.paymentProvider ? <img className="icon paymentProvider" src={icons[props.icon]} alt="missing img"></img>
-    : <img className="icon" src={icons[props.icon]} alt="missing img"></img>
+        : <img className="icon" src={icons[props.icon]} alt="missing img"></img>
 )
 
 export default Icon;
